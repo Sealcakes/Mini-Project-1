@@ -10,17 +10,19 @@ header {
     position: fixed;
     top: 0px;
     width: 100%;
+    height: 100px;
     background-color: aqua;
-
-    
-}
-
-#list-items {
-    display: inline;
-    
+    border-bottom: 10px solid blue;
+ 
 }
 
 section {
     position: relative;
-    top: 120px;
+    top: 150px;
 }
+
+#list-items {
+    display: inline;
+    right: 0px;
+}
+
