@@ -9,20 +9,52 @@
 </head>
 <body>
     <header>
-        <h1>SAMPLE HEADER</h1>
-        <ul>
-            <li id="list-items">LIST ITEM 1</li>
-            <li id="list-items">LIST ITEM 2</li>
-            <li id="list-items">LIST ITEM 3</li>
-        </ul>
+        <h1 id="header-title">Taylor Seal</h1>
+        <img id="seal-logo" src="./assets/seal_logo.png" alt="black circle with white seal"/>
+        <div class="nav">
+            <ul>
+                <a id="nav-button" href="#h2-title">HOME</a>
+                <a id="nav-button" href="#about-me-section">ABOUT</a>
+                <a id="nav-button" href="#contact-me-section">CONTACT</a>
+            </ul>
+        </div>
     </header>
     
-    <section>
+    <section class="landing-welcome">
+        <h2 class="h2-title">Welcome to my first webpage!</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Mus mauris vitae ultricies leo integer malesuada nunc vel risus. Duis ut diam quam nulla porttitor. Mi sit amet mauris commodo. Ut lectus arcu bibendum at varius vel pharetra vel. Faucibus pulvinar elementum integer enim neque volutpat. Sit amet consectetur adipiscing elit duis tristique. Nulla facilisi nullam vehicula ipsum a. Vitae tortor condimentum lacinia quis vel eros. Facilisis volutpat est velit egestas dui id ornare arcu. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Lectus proin nibh nisl condimentum id venenatis. Volutpat maecenas volutpat blandit aliquam. Morbi tristique senectus et netus et malesuada fames ac.</p>
 
         <p>Nam aliquam sem et tortor consequat id porta nibh venenatis. At tellus at urna condimentum mattis pellentesque id nibh. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Venenatis a condimentum vitae sapien pellentesque. Massa sapien faucibus et molestie ac feugiat sed lectus. Neque gravida in fermentum et sollicitudin ac orci phasellus. Metus aliquam eleifend mi in. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Eget nunc lobortis mattis aliquam. Mi bibendum neque egestas congue. Gravida rutrum quisque non tellus orci ac auctor. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. A lacus vestibulum sed arcu non. Ut etiam sit amet nisl purus in mollis nunc. Vestibulum lorem sed risus ultricies tristique.</p>
             
         <p>Ornare suspendisse sed nisi lacus. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Pretium quam vulputate dignissim suspendisse in est ante in. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Enim ut sem viverra aliquet eget sit amet tellus cras. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Enim tortor at auctor urna. Nunc scelerisque viverra mauris in. Lacus luctus accumsan tortor posuere ac. Sed elementum tempus egestas sed sed risus pretium quam. Nec sagittis aliquam malesuada bibendum arcu. Hac habitasse platea dictumst quisque sagittis purus. Nunc sed blandit libero volutpat sed cras. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Aliquam id diam maecenas ultricies mi eget. Volutpat blandit aliquam etiam erat.</p>
+
     </section>
+    <section class="about-section">
+        <h2 id="about-me-section">About Me</h2>
+        <img id="bio-pic" src="./assets/taylor_guitar.jpg" alt="photo of man in teal shirt with guitar making dumb face"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section class="contact-section">
+        <h2 id="contact-me-section">Contact Me</h2>
+        <a id="email-me" href="mailto: taylorcseal@gmail.com">Email Me</a>
+
+        <p id="contact-p">Want to be added to our email list? ..Probably not though</p>
+        <form>
+            <div>    
+                <label>Name</label>
+                <input>
+            </div>
+            <div>
+                <label>Email Address</label>
+                <input type="email"/>
+            </div>
+            <button id="submit-button" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer-section">
+        <h4 id="copyright-info">copyright info</h4>
+    </footer>
 </body>
 </html>
